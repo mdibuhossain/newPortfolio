@@ -125,7 +125,7 @@ header.header-transparent{
 
 #social-profile::before{
     content: '\f1e0';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Fontawesome';
     position: absolute;
     color: #FFBD89;
     top: 15px;
@@ -140,7 +140,7 @@ header.header-transparent{
 }
 #social-email::before{
     content: '\f1fa';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Fontawesome';
     position: absolute;
     color: #FFBD89;
     top: 15px;
@@ -155,7 +155,7 @@ header.header-transparent{
 }
 #social-call::before{
     content: '\f095';
-    font-family: 'Font Awesome 5 Free'; 
+    font-family: 'Fontawesome'; 
     position: absolute;
     color: #FFBD89;
     top: 15px;
