@@ -207,7 +207,7 @@ header.header-transparent{
     color: #82909c;
     padding: 20px 10px;
     padding-top: 75px;
-    box-shadow: 0 0 30px #82909c2c;
+    box-shadow: 2px 5px 25px #9797971c;
     position: relative;
 }
 
@@ -223,7 +223,7 @@ header.header-transparent{
 }
 
 .form-section{
-    box-shadow: 0 0 30px #82909c2c;
+    box-shadow: 2px 5px 25px #9797971c;
     padding: 20px 15px;
 }
 .sendMessageBtn:hover{
