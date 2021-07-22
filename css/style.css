@@ -43,8 +43,9 @@ header.header-transparent{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url(../images/hero-bg.jpg) no-repeat;
+    background: url(../images/hero-bg.jpg) top right no-repeat;
     background-size:cover;
+    position: relative;
 }
 .hero::before{
     content: "";
@@ -123,49 +124,46 @@ header.header-transparent{
 }
 
 #social-profile::before{
-    content: "\f1e0";
-    font-family: FontAwesome;
+    content: '\f1e0';
+    font-family: 'Font Awesome 5 Free';
     position: absolute;
     color: #FFBD89;
     top: 15px;
     left: 0;
     right: 0;
-    padding: 10px;
-    font-size: 22px;
-    line-height: 28px;
     width: 48px;
+    height: 48px;
+    line-height: 48px;
     border-radius: 50%;
     margin: auto;
     background: #ffbc893a;
 }
 #social-email::before{
-    content: "\f1fa";
-    font-family: FontAwesome;
+    content: '\f1fa';
+    font-family: 'Font Awesome 5 Free';
     position: absolute;
     color: #FFBD89;
     top: 15px;
     left: 0;
     right: 0;
-    padding: 10px;
-    font-size: 22px;
-    line-height: 28px;
     width: 48px;
+    height: 48px;
+    line-height: 48px;
     border-radius: 50%;
     margin: auto;
     background: #ffbc893a;
 }
 #social-call::before{
-    content: "\f095";
-    font-family: FontAwesome;
+    content: '\f095';
+    font-family: 'Font Awesome 5 Free'; 
     position: absolute;
     color: #FFBD89;
     top: 15px;
     left: 0;
     right: 0;
-    padding: 10px;
-    font-size: 22px;
-    line-height: 28px;
     width: 48px;
+    height: 48px;
+    line-height: 48px;
     border-radius: 50%;
     margin: auto;
     background: #ffbc893a;
