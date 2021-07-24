@@ -46,7 +46,7 @@ header.header-transparent{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url(../images/hero-bg.jpg) top right no-repeat;
+    background: url(../images/bg.jpg) top right no-repeat;
     background-size:cover;
     position: relative;
 }
@@ -88,7 +88,7 @@ header.header-transparent{
     text-transform: uppercase;
 }
 .about-img{
-    background: url(../images/me.jpg) center center no-repeat;
+    background: url(../images/myself.jpg) center center no-repeat;
     background-size: cover;
     min-height: 500px;
 }
